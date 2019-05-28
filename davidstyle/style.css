@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.linkBar {
+  height: 200px;
+  margin: 0 50px;
+  background-color: grey;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  margin-bottom: 100px; }
+  .linkBar .linkBar__tabs {
+    margin: 10% 10%;
+    background-color: red; }
+
+.calendarContainer {
+  height: 2000px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 50px;
+  margin: 0 50px;
+  margin-bottom: 100px; }
+  .calendarContainer .calendarContainer__image {
+    grid-column: 1/1;
+    background-color: green; }
+  .calendarContainer .calendarContainer__calendar {
+    grid-column: 2/3;
+    grid-row: 1/ span 2;
+    background-color: grey; }
+
+.pricesContainer {
+  height: 100vh;
+  background-color: grey;
+  margin: 0 50px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 30vh 20vh; }
+  .pricesContainer .pricesContainer__title {
+    grid-column: 1 / span 4;
+    background-color: red; }
+  .pricesContainer .pricesContainer__pulje {
+    grid-column: span 2;
+    background-color: green; }
+
+/*# sourceMappingURL=style.css.map */

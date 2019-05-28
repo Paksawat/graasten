@@ -1,0 +1,57 @@
+*{
+	margin:0;
+	padding:0;
+}
+.linkBar{
+	height:200px; // ret højde ved responsive
+	margin:0 50px;
+	background-color: grey;
+	display: grid;
+	grid-template-columns:repeat(6, 1fr);
+	.linkBar__tabs{
+		margin:10% 10%;
+		background-color: red;
+	}
+	margin-bottom: 100px; // fjern senere
+}
+
+
+
+
+.calendarContainer{
+	height:2000px;
+	display: grid;
+	grid-template-columns:1fr 1fr;
+	grid-gap:50px;
+	margin:0 50px;
+	.calendarContainer__image{
+		grid-column:1/1;
+		background-color: green;
+	}
+	.calendarContainer__calendar{
+		grid-column:2/3;
+		grid-row:1/ span 2;
+		background-color: grey;
+	}
+	margin-bottom: 100px; // fjern senere
+}
+
+
+
+
+.pricesContainer{
+	height:100vh;
+	background-color: grey;
+	margin:0 50px;
+	display: grid;
+	grid-template-columns:repeat(4, 1fr);
+	grid-template-rows:30vh 20vh;
+	.pricesContainer__title{
+		grid-column:1 / span 4;
+		background-color: red;
+	}
+	.pricesContainer__pulje{
+		grid-column:span 2;
+		background-color: green;
+	}
+}
