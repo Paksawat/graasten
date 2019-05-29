@@ -4,6 +4,8 @@ body{
     background-color: #F5F5F5;
 }
 
+
+
 .banner{
     background-color: purple; 
     height: 100vh; 
@@ -65,6 +67,7 @@ body{
       margin: 10% 10%;
       background-color: white;
       text-align: center;
+      text-decoration: none;
     }
 
 .billeder{
@@ -74,4 +77,6 @@ body{
 .menutekst{
     font-size: 1.5rem;
     margin-top: 35px;
+   
 }
+
