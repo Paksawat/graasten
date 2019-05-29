@@ -1,0 +1,77 @@
+*{margin: 0; padding: 0;}
+
+body{
+    background-color: #F5F5F5;
+}
+
+.banner{
+    background-color: purple; 
+    height: 100vh; 
+    width: 100%;
+}
+
+.overskrift {
+    background-color: #1B4F9A;
+    height: 70px;
+    width: 100%;
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+    position: fixed;
+    z-index: 999;
+}
+
+.tekstOverlay{
+    background-color: rgba(0,0, 0, 0.3);
+    position: absolute;
+    top: 270px;
+    left: 6%;
+    font-size: 2.5rem;
+    color: white;
+    width: 44%;
+}
+.timer {
+   margin-top: 15px;
+   color: #1B4F9A;
+}
+
+.tilmelding{
+    text-align: center;
+    font-size: 1.5rem;
+}
+.tilmeldTitle {
+    margin-top: 30px;
+}
+.tilmeldButton{
+    margin-top: 20px;
+    background-color: #1B4F9A;
+    width: 160px;
+    height: 70px;
+    border-radius: 15px;
+    border: none;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.linkBar {
+    height: 200px;
+    margin: 30px 20px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    margin-bottom: 100px; }
+    .linkBar .linkBar__tabs {
+      margin: 10% 10%;
+      background-color: white;
+      text-align: center;
+    }
+
+.billeder{
+    height: 82px;  
+}
+
+.menutekst{
+    font-size: 1.5rem;
+    margin-top: 35px;
+}
