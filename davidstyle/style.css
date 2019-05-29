@@ -43,7 +43,7 @@
     background-color: green; }
 
 .swiper-container {
-  height: 400px; }
+  height: 600px; }
 
 .swiper-slide {
   background-color: #3F8992; }
@@ -73,5 +73,24 @@
 
 .swiper-container {
   width: 95vw; }
+
+.sliderText {
+  color: white;
+  position: absolute;
+  font-size: 3rem; }
+
+.diskoVideo {
+  height: 300px; }
+
+.diskoTekst {
+  text-align: center;
+  display: inline-block;
+  font-size: 2rem; }
+
+.diskoContainer {
+  height: 300px;
+  width: 94%;
+  margin: 0 3%;
+  background-color: grey; }
 
 /*# sourceMappingURL=style.css.map */
