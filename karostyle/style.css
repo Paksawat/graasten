@@ -20,12 +20,14 @@
 .tekstOverlay{
     background-color: rgba(0,0, 0, 0.3);
     position: absolute;
-    top: 70px;
-    left: 20px;
+    top: 210px;
+    left: 6%;
     font-size: 2.5rem;
-    font-family: ;
     color: white;
+    width: 44%;
 }
 .timer {
+    position: absolute; 
+    
 
 }
