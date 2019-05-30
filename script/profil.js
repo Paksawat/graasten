@@ -14,7 +14,7 @@ for (var i = 0; i < picture.length; i++){
     nextSibling.nextSibling.style.opacity = "1";
     prevSibling.previousSibling.style.opacity = "1";
     //ændre hvor langt fra bunden de skal sidde
-    nextSibling.nextSibling.style.bottom = "-10%";
+    nextSibling.nextSibling.style.bottom = "0%";
     prevSibling.previousSibling.style.bottom = "85%";
   });
   // mouseout event på det billede med mus på
