@@ -33,7 +33,10 @@
     width: 100%;
     position: absolute;
     transition: ease .2s;
-    bottom: 50%; }
+    bottom: 50%; 
+    opacity: 0;
+}
+
   
   .PictureContainer {
     position: relative; }
