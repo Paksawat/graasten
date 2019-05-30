@@ -37,6 +37,12 @@ var x = setInterval(function() {
 }, 1000);
 
 
+///////////////////////////////////////////////////////////////
+//
+//                    Profiler hover
+//
+///////////////////////////////////////////////////////////////
+
 
 // variable med alle profilbilleder
 var picture = document.querySelectorAll(".ProfilPicture");
@@ -73,3 +79,27 @@ for (var i = 0; i < picture.length; i++){
     prevSibling.previousSibling.style.bottom = "50%";
   });
 }
+//////////////////////////////////////////////////////////////
+//
+//                    Slider
+//
+//https://github.com/nolimits4web/Swiper/blob/master/demos/280-autoplay.html
+///////////////////////////////////////////////////////////////
+
+
+var swiper = new Swiper('.swiper-container', {
+  spaceBetween: 30,
+  centeredSlides: true,
+  autoplay: {
+    delay: 5000,
+    disableOnInteraction: false,
+  },
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+});
