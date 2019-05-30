@@ -6,7 +6,6 @@ body{
 
 .video{
 width: 100%;
-
 }
 
 .tekstOverlay{
@@ -17,7 +16,7 @@ width: 100%;
     font-size: 4rem;
     color: white;
     width: 70%;
-    font-family: "Century Gothic";
+    font-family: 'Permanent Marker', cursive;
     text-align: center;
 }
 
