@@ -4,24 +4,8 @@ body{
     background-color: #DCDCDC;
 }
 
-.banner{
-    background-color: purple; 
-    height: 100vh; 
-    width: 100%;
-}
+.video{
 
-.overskrift {
-    background-color: #1B4F9A;
-    height: 70px;
-    width: 100%;
-    font-size: 2rem;
-    color: white;
-    text-align: center;
-    line-height: 70px;
-    position: fixed;
-    z-index: 999;
-    font-family: "Century Gothic";
-    text-transform: uppercase;
 }
 
 .tekstOverlay{
