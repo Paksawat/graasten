@@ -6,7 +6,6 @@ body{
 
 .video{
 width: 100%;
-
 }
 
 .tekstOverlay{
@@ -15,16 +14,18 @@ width: 100%;
     top: 230px;
     left: 15%;
     font-size: 4rem;
-    color: white;
+    color: black;
     width: 70%;
-    font-family: "Century Gothic";
+    font-family: 'Monoton', cursive;
     text-align: center;
 }
 
 .timer {
    margin-top: 15px;
-   color: #1B4F9A;
+   color: black;
    font-family: "Century Gothic";
+   text-transform: uppercase;
+   font-size: 3rem;
 }
 
 .tilmelding{
