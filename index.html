@@ -2,47 +2,139 @@
 <html lang="da">
 <head>
 	<meta charset="utf-8">
-	<link rel="stylesheet" href="casperstyle/casperstyle.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link href="https://fonts.googleapis.com/css?family=Monoton&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
 	<title>Sønderjylladscup</title>
 </head>
 
 <body>
-<header></header>
 
-<section><img src="" alt=""></section>
+<header class="banner">
+	<article class="tekstOverlay">
+	    <p>Sønderjyllands Cup</p>
+	    <p class="timer"></p>
+	</article>
+	<video class="video" autoplay muted loop src="video/Forside.mp4"></video>
+</header>
 
-<article class="tilmeld">
-	<h1>Tilmelding her</h1>
-	<button>Tilmeld</button>
+<article class="tilmelding">
+    <h1 class="tilmeldTitle">Tilmelding her</h1>
+    <button class="tilmeldButton">Tilmeld</button>
 </article>
 
-<section class="information">
-<a class="information__ikon" href=""> <img src="" alt="information"> <h2 class="information__tekst"></h2></a> 
-<a class="afvikling__ikon" href=""> <img src="" alt="afvikling"> <h2 class="afvikling__tekst"></h2></a>
-<a class="indkvatering__ikon" href=""> <img src="" alt="indkvatering"> <h2 class="indkvatering__tekst"></h2></a>
-<a class="camping__ikon" href=""> <img src="" alt="camping"> <h2 class="camping__tekst"></h2></a>
-<a class="preamier__ikon" href=""> <img src="" alt="preamier"> <h2 class="preamier__tekst"></h2></a>
-<a class="priser__ikon" href=""> <img src="" alt="priser"> <h2 class="priser__tekst"></h2></a>
-</section>
-
-<section class="billede__AfTurneringen">
-	<img src="" alt="Sønderjylladscup">
-	<p>
-</section>
-
-<article class="kalender">
-
-
+<article class="linkBar">
+    <a class="linkBar__tabs" href="">
+        <img class="billeder" src="icons/information.png" alt="">
+        <p class="menutekst">Information</p>
+    </a>
+    <a class="linkBar__tabs" href="">
+        <img class="billeder"  src="icons/afvikling.png" alt="">
+        <p class="menutekst">Afvikling</p>
+    </a>
+    <a class="linkBar__tabs" href="">
+        <img class="billeder"  src="icons/indkvartering.png" alt="">
+        <p class="menutekst">Indkvartering</p>
+    </a>
+    <a class="linkBar__tabs" href="">
+        <img class="billeder"  src="icons/camping.png" alt="">
+        <p class="menutekst">Camping</p>
+    </a>
+    <a class="linkBar__tabs" href="">
+        <img class="billeder"  src="icons/priser.png" alt="">
+        <p class="menutekst">Priser</p>
+    </a>
+    <a class="linkBar__tabs" href="">
+        <img class="billeder"  src="icons/kontakt.png" alt="">
+        <p class="menutekst">Kontakt</p>
+    </a>
 </article>
 
+<article class="friContainer">
+	<p class="friOverlay">De frivillige</p>
+	<video class="video friVideo" autoplay muted loop src="video/frivillig.mp4"></video>
+</article>
 
-<section class="billede__AfStraffe"></section>
+<!--Profiler-->
+<section class="Profilcontainer">
+    <h3 class="ProfileTitle">Sammen er det muligt</h3>
+    <p class="ProfilText">Mød alle de søde frivillige ved Sønderjyllands Cup</p>
+    <article class="PictureContainer">
+        <p class="ProfileName">Pia Hagge</p>
+        <img class="ProfilPicture" src="images/pia.jpg" alt="Pia Hagge">
+        <p class="ProfileJob">Bestyrelse</p>
+    </article>
+    <article class="PictureContainer">
+        <p class="ProfileName">Torben Petersen</p>
+        <img class="ProfilPicture" src="images/torben.jpg" alt="Torben Petersen">
+        <p class="ProfileJob">Bestyrelse</p>
+    </article>
+    <article class="PictureContainer">
+        <p class="ProfileName">Christoffer Mortensen</p>
+        <img class="ProfilPicture" src="images/christoffer.jpg" alt="Christoffer Mortensen">
+        <p class="ProfileJob">Frivillig til Sønderjylland</p>
+    </article>
+    <article class="PictureContainer">
+        <p class="ProfileName">Nicolai Jacobsen</p>
+        <img class="ProfilPicture" src="images/nicolai.jpg" alt="Nicolai Jacobsen">
+        <p class="ProfileJob">Frivillig til Sønderjylland</p>
+    </article>
+    <article class="PictureContainer">
+        <p class="ProfileName">Casper Schmidt</p>
+        <img class="ProfilPicture" src="images/casper.jpg" alt="Casper Schmidt">
+        <p class="ProfileJob">Træner</p>
+    </article>
+    <article class="PictureContainer">
+        <p class="ProfileName">Torben Groening</p>
+        <img class="ProfilPicture" src="images/torben_g.jpg" alt="Torben Groening">
+        <p class="ProfileJob">Bestyrelse</p>
+    </article>
+    <article class="PictureContainer">
+        <p class="ProfileName">Rasmus Nissen</p>
+        <img class="ProfilPicture" src="images/rasmus.jpg" alt="Rasmus Nissen">
+        <p class="ProfileJob">Træner</p>
+    </article>
 
-<section class="preamier"></section>
+</section>
 
-<footer></footer>
+<!--   Slider  -->
+  <section class="swiper-container">
+    <div class="swiper-wrapper">
+	    <article class="swiper-slide"><img src="images/slider_image_1.jpg" alt=""><p class="sliderText">Slide 1</p></article>
+	    <article class="swiper-slide"><img src="images/slider_image_1.jpg" alt=""><p class="sliderText">Slide 2</p></article>
+	    <article class="swiper-slide"><img src="images/slider_image_1.jpg" alt=""><p class="sliderText">Slide 3</p></article>
+	    <article class="swiper-slide"><img src="images/slider_image_1.jpg" alt=""><p class="sliderText">Slide 4</p></article>
+	    <article class="swiper-slide"><img src="images/slider_image_1.jpg" alt=""><p class="sliderText">Slide 5</p></article>
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+    <!-- Add Arrows -->
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+</section>
 
+<!-- Premier section -->
+<section class="pricesContainer">
+	<h2 class="pricesContainer__title">Præmier</h2>
+	<h3 class="pricesContainer__pulje">A-finaler</h3>
+	<h3 class="pricesContainer__pulje">B-finaler</h3>
+	<img class="pricesContainer__image" src="images/price_a1.png" alt="">
+	<img class="pricesContainer__image" src="images/price_a2.png" alt="">
+	<img class="pricesContainer__image" src="images/price_b1.png" alt="">
+	<img class="pricesContainer__image" src="images/price_b2.png" alt="">
+</section>
+
+<footer>
+	<img class="socials" src="icons/instagram.png" alt="">
+	<img class="socials" src="icons/facebook.png" alt="">
+	<img class="socials" src="icons/mail.png" alt="">
+</footer>
+   <!-- Swiper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script>
+<script src="scripts/wufooForm.js"></script>
+<script src="scripts/script.js"></script>
 </body>
 </html>
