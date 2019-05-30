@@ -14,7 +14,7 @@ width: 100%;
     top: 230px;
     left: 15%;
     font-size: 4rem;
-    color: 676767;
+    color: black;
     width: 70%;
     font-family: 'Monoton', cursive;
     text-align: center;
@@ -23,9 +23,10 @@ width: 100%;
 
 .timer {
    margin-top: 15px;
-   color: #1B4F9A;
+   color: black;
    font-family: "Century Gothic";
    text-transform: uppercase;
+   font-size: 3rem;
 }
 
 .tilmelding{
