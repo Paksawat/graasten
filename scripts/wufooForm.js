@@ -1,0 +1,3 @@
+ 
+// Formular genereret af Wufoo.com
+ var q1g07c60p6ncox; (function(d, t) { var s = d.createElement(t), options = { 'userName':'paksawat', 'formHash':'q1g07c60p6ncox', 'autoResize':true, 'height':'602', 'async':true, 'host':'wufoo.com', 'header':'show', 'ssl':true }; s.src = ('https:' == d.location.protocol ?'https://':'http://') + 'secure.wufoo.com/scripts/embed/form.js'; s.onload = s.onreadystatechange = function() { var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return; try { q1g07c60p6ncox = new WufooForm(); q1g07c60p6ncox.initialize(options); q1g07c60p6ncox.display(); } catch (e) { } }; var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr); })(document, 'script'); 

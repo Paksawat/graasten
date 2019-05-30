@@ -103,3 +103,27 @@ var swiper = new Swiper('.swiper-container', {
     prevEl: '.swiper-button-prev',
   },
 });
+///////////////////////////////////////////////////////////////
+//
+//                    form modal boks
+//
+///////////////////////////////////////////////////////////////
+
+var tilmeldBtn = document.querySelector(".tilmeldButton");
+var form = document.querySelector(".formContainer");
+// variable for wufoo form
+var wufooForm = document.querySelector("#wufoo-q1g07c60p6ncox");
+//variable for wufoo submit knap
+var submit = document.querySelector(".info");
+
+
+tilmeldBtn.addEventListener("click", function(){
+  //Skalere formen op
+  form.style.transform = "scale(1)";
+});
+
+form.addEventListener("click", function(){
+  //Skalere formen ned - så den bliver gemt
+  form.style.transform = "scale(0)";
+});
+console.log(submit);
