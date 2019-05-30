@@ -1,0 +1,18 @@
+
+.profilcontainer{
+    height: 300px;
+    margin: 0 20px 20px 20px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: 70px 50px;
+    text-align: center;
+    font-family: "Century Gothic"; }
+
+.profileTitle {
+    margin-top: 25px;
+    font-size: 2rem;
+    grid-column: span 10; }
+  
+  .ProfilText {
+    grid-column: span 10; }
