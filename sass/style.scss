@@ -86,3 +86,22 @@ $primaryColor: #1B4F9A;
    color: black;
    text-transform: uppercase;
 }
+
+///////////////////////////////////////////
+//   Frivillige video
+///////////////////////////////////////////
+.friContainer{
+	position: relative;
+	margin:0 25px;
+
+}
+.friOverlay{
+	position: absolute;
+	top:50%;
+	right:35%;
+	padding:25px 50px;
+	font-size:4rem;
+	font-family: $primaryFont;
+	color:white;
+	background-color: rgba(0,0,0,.5);
+}
