@@ -6,6 +6,8 @@ body{
 
 
 
+
+
 .banner{
     background-color: purple; 
     height: 100vh; 
@@ -29,9 +31,9 @@ body{
 .tekstOverlay{
     background-color: rgba(0,0, 0, 0.3);
     position: absolute;
-    top: 270px;
+    top: 230px;
     left: 15%;
-    font-size: 2.5rem;
+    font-size: 4rem;
     color: white;
     width: 70%;
     font-family: "Century Gothic";
@@ -42,7 +44,6 @@ body{
    margin-top: 15px;
    color: #1B4F9A;
    font-family: "Century Gothic";
-   
 }
 
 .tilmelding{
