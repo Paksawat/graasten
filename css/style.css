@@ -45,6 +45,21 @@ body {
   color: white;
   font-family: "Muli", sans-serif; }
 
+.formContainer {
+  top: 0;
+  position: fixed;
+  z-index: 999;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: ease .2s;
+  transform: scale(0); }
+
+#wufoo-q1g07c60p6ncox {
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 50px; }
+
 .linkBar {
   height: 200px;
   margin: 30px 20px;

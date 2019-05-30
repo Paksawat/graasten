@@ -59,6 +59,25 @@ $primaryColor: #1B4F9A;
     font-family: $primaryFont;
 }
 ///////////////////////////////////////////
+//   Tilmelding Form
+///////////////////////////////////////////
+
+.formContainer{ // sort fullscreen overlay
+	top:0;
+	position: fixed;
+	z-index:999; //sætter den til altid at være øverst på siden
+	width:100vw;
+	height: 100vh;
+	background-color: rgba(0,0,0,.5);
+	transition:ease .2s; // en ease effect på scaling
+	transform:scale(0); // sætter dne til at starte på 0 scale - dne er ikke synlig
+}
+#wufoo-q1g07c60p6ncox{ //ID til formularen - lavet af Wufoo
+	width:500px;
+	margin:0 auto;
+	margin-top: 50px;
+}
+///////////////////////////////////////////
 //   Links
 ///////////////////////////////////////////
 .linkBar {
