@@ -92,7 +92,7 @@ $primaryColor: #1B4F9A;
 ///////////////////////////////////////////
 .friContainer{
 	position: relative;
-	margin:0 25px;
+	margin:0 25px 100px 25px;
 
 }
 .friOverlay{
@@ -105,3 +105,53 @@ $primaryColor: #1B4F9A;
 	color:white;
 	background-color: rgba(0,0,0,.5);
 }
+
+///////////////////////////////////////////
+//   Profiler
+///////////////////////////////////////////
+.Profilcontainer{
+    height: 340px;
+    margin: 0 20px 20px 20px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: 70px 70px;
+    text-align: center;
+    font-family: $primaryFont; 
+}
+
+.ProfileTitle {
+    margin-top: 25px;
+    font-size: 2rem;
+    grid-column: span 9; 
+}
+  
+.ProfilText {
+    grid-column: span 9;
+
+}
+
+.ProfilPicture {
+    position: relative;
+    z-index: 10;
+    width: 100px;
+    border-radius: 50%;
+    transition: ease .2s;
+    margin-top: 30px; 
+    height: 100px;
+    filter: grayscale(100%);
+}
+.ProfileName, .ProfileJob {
+    width: 100%;
+    position: absolute;
+    transition: ease .2s;
+    bottom: 50%; 
+    opacity: 0;
+}
+
+  
+  .PictureContainer {
+    position: relative; }
+
+.PictureContainer:nth-child(3) {
+    grid-column: 2/2; }
