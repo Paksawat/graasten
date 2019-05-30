@@ -2,16 +2,21 @@
 	margin:0;
 	padding:0;
 }
+body{
+	background-color:#DCDCDC ;
+}
 $primaryFont:'Muli', sans-serif;
+$primaryColor: #1B4F9A;
 ///////////////////////////////////////////
 //   Header
 ///////////////////////////////////////////
 .video{
-	width: 100%;
+	width:100%;
 }
 
 .tekstOverlay{
     position: absolute;
+    z-index:20;
     top: 230px;
     left: 15%;
     font-size: 4rem;
@@ -27,4 +32,57 @@ $primaryFont:'Muli', sans-serif;
    font-family: $primaryFont;
    text-transform: uppercase;
    font-size: 3rem;
+}
+///////////////////////////////////////////
+//   Tilmelding
+///////////////////////////////////////////
+
+.tilmelding{
+    text-align: center;
+    font-size: 1.5rem;
+}
+.tilmeldTitle {
+    margin-top: 30px;
+    font-family: $primaryFont;
+    
+}
+
+.tilmeldButton{
+    margin-top: 20px;
+    background-color: $primaryColor;
+    width: 160px;
+    height: 70px;
+    border-radius: 15px;
+    border: none;
+    font-size: 1.5rem;
+    color: white;
+    font-family: $primaryFont;
+}
+///////////////////////////////////////////
+//   Links
+///////////////////////////////////////////
+.linkBar {
+    height: 200px;
+    margin: 30px 20px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    margin-bottom: 100px; }
+    .linkBar .linkBar__tabs {
+      margin: 10% 10%;
+      background-color: white;
+      text-align: center;
+      text-decoration: none;
+    }
+
+.billeder{
+    height: 82px;  
+}
+
+.menutekst{
+    font-size: 1.2rem;
+    margin-top: 35px;
+   font-family: $primaryFont;
+   color: black;
+   text-transform: uppercase;
 }
