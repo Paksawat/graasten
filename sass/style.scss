@@ -207,7 +207,11 @@ $primaryColor: #1B4F9A;
 	position: absolute;
 	font-size: 3rem; 
 	padding:15px 25px;
-	background-color: rgba(0,0,0,.3);
+	font-family: $primaryFont;
+	background-color: rgba(0,0,0,.5);
+}
+.slideImage{
+	width:80%;
 }
 ///////////////////////////////////////////
 //   Prices
